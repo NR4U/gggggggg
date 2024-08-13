@@ -1,0 +1,54 @@
+/* Media Queries for Mobile Devices */
+@media (max-width: 767px) {
+    /* Adjust header and navigation */
+    .main-navigation .navbar-brand {
+      font-size: 1.5rem;
+    }
+    .main-navigation .navbar-nav .nav-link {
+      font-size: 0.9rem;
+      padding: 0.5rem;
+    }
+  
+    /* Adjust main banner */
+    .main-banner .header-text h6 {
+      font-size: 1rem;
+    }
+    .main-banner .header-text h2 {
+      font-size: 2rem;
+    }
+  
+    /* Adjust search form */
+    .search-form .form-select {
+      font-size: 0.9rem;
+      padding: 0.5rem;
+    }
+    .search-form #audioPlayer {
+      width: 100% !important;
+    }
+  
+    /* Adjust footer */
+    footer .location-widget,
+    footer .customer-care,
+    footer .follow-us {
+      text-align: center;
+    }
+    footer .sub-footer .scroll-to-top {
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media (max-width: 575px) {
+    /* Further adjust elements for smaller screens */
+    .main-banner .header-text h6 {
+      font-size: 0.8rem;
+    }
+    .main-banner .header-text h2 {
+      font-size: 1.5rem;
+    }
+    .search-form .form-select {
+      font-size: 0.8rem;
+    }
+    footer .sub-footer p {
+      font-size: 0.8rem;
+    }
+  }
